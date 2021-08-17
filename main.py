@@ -7,7 +7,7 @@ from shutil import copy
 def show_saves(saves: list):
     print("ORDER OF SAVES:")
     for index, value in enumerate(saves):
-        print("\t{}: {}".format(index, value))
+        print(f"\t{index}: {value}")
 
 
 def main():
